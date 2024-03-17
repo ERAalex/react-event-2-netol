@@ -5,31 +5,39 @@
     background-color: rgb(255, 255, 255);
   }
   
-  .ShopListC {
+  .ShowItem {
     width: 95%;
     height: 100px;
   }
 
-  .shopList {
+  .showItemList {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
   
-  .shopListName {
+  .showItemListName {
     color: black;
   }
   
-  .shopLitsColor {
+  .showItemListColor {
     color: black;
   }
   
-  .shopListPrice {
+  .showItemListPrice {
     color: red;
   }
   
-  .shopListImg {
+  .showItemListImg {
     width: 90px;
     height: 90px;
+  }
+  
+  .showItemListBut{
+    background-color: rgb(253, 248, 248);
+    border: 1px solid rgb(224, 40, 40);
+    font: 1em sans-serif;
+    color: red;
+    font-weight: bold;
   }
   

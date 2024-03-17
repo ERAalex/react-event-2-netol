@@ -5,11 +5,11 @@
     justify-content: center;
   }
   
-  .ShopCardC {
+  .ShopCardMain {
     padding: 5px;
   }
   
-  .shopCardPrB {
+  .shopCardPriceBlock {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -38,6 +38,15 @@
   
   .shopCardPrice {
     font-size: 18px;
-    color: black;
+    color: rgb(203, 28, 28);
+
+  }
+
+  .shopCardListBut{
+    background-color: rgb(253, 248, 248);
+    border: 1px solid rgb(224, 40, 40);
+    font: 1em sans-serif;
+    color: red;
+    font-weight: bold;
   }
   

@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { IconSwitch } from "./IconSwitch.jsx"
-import { useState } from "react";
 
 import productsData from "../components/products-data.jsx"
 import CardsView from "./ShopView/CardsView/CardsView.jsx"

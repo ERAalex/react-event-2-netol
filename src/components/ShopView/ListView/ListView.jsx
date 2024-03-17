@@ -4,14 +4,13 @@ import "./css/ListView.css";
 
 
 export const ListView = (props) => {
-  console.log('ListView----1---')
-  console.log(props)
+
   const { items } = props;
 
     return (
     <div className="listView">
       {items.map((item, i) => (
-        <div className="ShopListC" key={i}>
+        <div className="ShowItem" key={i}>
           <ShowItem item={item} />
         </div>
       ))}
@@ -30,7 +29,7 @@ export const ListView = (props) => {
 //   return (
 //     <div className="listView">
 //       {productsItems.map((item, i) => (
-//         <div className="ShopListC" key={i}>
+//         <div className="" key={i}>
 //           <ShowItem item={item} />
 //         </div>
 //       ))}

@@ -8,7 +8,7 @@ export default function CardsView(props) {
   return (
     <div className="cardView">
       {items.map((item, i) => (
-        <div className="ShopCardC" key={i}>
+        <div className="ShopCardMain" key={i}>
           <ShopCard item={item} />
         </div>
       ))}
