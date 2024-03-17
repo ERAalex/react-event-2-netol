@@ -1,0 +1,35 @@
+.listView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .ShopListC {
+    width: 95%;
+    height: 100px;
+  }
+
+  .shopList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .shopListName {
+    color: black;
+  }
+  
+  .shopLitsColor {
+    color: black;
+  }
+  
+  .shopListPrice {
+    color: red;
+  }
+  
+  .shopListImg {
+    width: 90px;
+    height: 90px;
+  }
+  
